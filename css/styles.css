@@ -1,0 +1,104 @@
+body {
+    background: #298EEA;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-top: 60px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.outer-wrapper {
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+    /*height: 75px;*/
+    height: 35px;
+    margin: 0 auto 35px;
+}
+
+.signup-form {
+    margin: 0 auto;
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    background: white;
+}
+
+.signup-form legend {
+    text-align: center;
+    padding: 40px;
+    color: grey;
+    margin: 0 auto;
+    font-size: xx-large;
+}
+
+label {
+    font-weight: bolder;
+}
+
+input, button {
+    width: 320px;
+    border: border: 2px solid white;
+    padding: 15px;
+    height: 55px;
+    border-radius: 5px;
+    border: 0;
+}
+
+input {
+    margin: 15px;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+button {
+    color: white;
+    background: #15CD72;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+button:hover {
+    background: green;
+}
+
+.signup-form p {
+    font-size: small;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-form a {
+    color: grey;
+}
+
+.signup-form a:hover, footer a:hover {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    font-weight: bolder;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover { 
+    color: darkgreen;
+}
+
+footer p { 
+    margin-bottom: 100px;
+}
